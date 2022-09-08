@@ -4,3 +4,4 @@
 
 解决：
  1. show binary logs 查看有没有二进制日志，有则可以通过日志恢复。`You are not using binary logging` ,尝试睡觉。
+ 2. 官方文档说在my.ini [mysqld] 下面加一句 innodb_force_recovery = 1 来尝试。但是似乎并没有什么用。开始困了。
