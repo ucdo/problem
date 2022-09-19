@@ -22,7 +22,7 @@
                     1.1、volatile-random：随机删除
                     1.2、volatile-lru：根据LRU算法进行淘汰
                     1.3、volatile-lru：根据LFUU算法进行淘汰
-                3、不操作：返回拒绝写入的异常
+                3、*不操作*：返回拒绝写入的异常
 
 4、LRU LFU
 LRU：(Least Recently used,最近最少次使用):淘汰很久没被访问的数据。
