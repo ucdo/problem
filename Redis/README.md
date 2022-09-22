@@ -80,5 +80,14 @@ Hashtable
     zrange zname start end [WITHSCORES]                     //get zname`s value from start to end,if WITHSCORES list their score
     zrevrange zname start end [WITHCORES]                   //get values by decr
     zrangebyscore zname mixscore maxscore [WITHSCORES]      //get values between min and max score 
-    zrevranagebyscore zname mixscore max score [WITHSCORES] // reverse
+    zrevranagebyscore zname mixscore max score [WITHSCORES] //reverse
+    zinrcby zname increament member                         //if increament > 0, add increament < 0,decr. if key`s value is not a number,error.Not exist,create.
+    zrem zname member1 member2 ...                          //remove.if member not exist, skip.
+    zremrangebyrank zname start end                         //delete by rank.end = -1 means last one.
+    zremrangebyscore zname minscore maxscore                //delete member bewteen min score and max score
+    zcount zname minscore maxscore                          //count member between min score and max score
+    zrank zname member                                      //return rank of the member,the first is zero.
+    zrevrank zname member                                   //return reverse rank of the member,the end id zero.
+    zscore zname member                                     //return the member`s  score
+    
 ```
