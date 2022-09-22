@@ -46,6 +46,39 @@ ziplist <-> ziplist <-> ziplist <-> ziplist       //construct a quicklist
 Hashtable
 
 ```
-    sadd key value1 ....        //add a set with values
-    smember key                 //return all member
+    sadd key value1 ....                //add a set with values
+    smember key                         //return all member
+    sismember key value                 //check value in set or not
+    scard key                           //return count of set
+    srem key value1 ...                 //remove one or more value in set
+    spop key count                      //pop random values reforencen by count
+    srandmember key count               //get random member from set reforence by count
+    smove set1 set2 member              //move member of set1 to set2
+    sinter set1 set2 ...                //get intersection of sets
+    sinterstore aimset set1 set2 ...    //write interserction to aimset of set1 set2 ...
+    sunion set1 set2 ...                //get union of set1 set2 ...
+    sdiff set1 set2 ...                 //get diff of set1 set2 ...
+    sdiffstore aimset set1 set2 ...     //write diff to aimset of set1 set 2 ...                                        
+```
+
+## Hash
+`key` => `value`
+```
+    hset name key value                 //add key value for name
+    hget name key                       //get key`s value
+    hexists name key                    //check key exist or not
+    hkeys name                          //get all keys
+    hvals name                          //get all values
+    hlen name                           //get len of hash
+    hincrby name key incrNum            //if incrnum > 0, add incrnum < 0,decr. if key`s value is not a number,error.Not exist,create.
+    hsextnx name key value              //if not key exist,creat.else do noting 
+```
+
+## zset (sorted set)
+```
+    zadd zname score name1 score name2...                   //add to zset unique name with score, score can repeat
+    zrange zname start end [WITHSCORES]                     //get zname`s value from start to end,if WITHSCORES list their score
+    zrevrange zname start end [WITHCORES]                   //get values by decr
+    zrangebyscore zname mixscore maxscore [WITHSCORES]      //get values between min and max score 
+    zrevranagebyscore zname mixscore max score [WITHSCORES] // reverse
 ```
