@@ -27,6 +27,8 @@
 ```
 ## List
 Double Linked List
+ziplist <-> ziplist <-> ziplist <-> ziplist       //construct a quicklist
+
 ```
     lpush\rpush key value1 [value2...]            //append to the list head or tail.
     lrange key start stop                         // stop = -1 ,get all data
@@ -35,7 +37,15 @@ Double Linked List
     rpoplpush list1 list2                         //pop one of list1`s tail and insert to the list2`s head
     lindex key index                              // index = -1 last data 
     llen                                          //get list len
-    Linsert listName BEFORE|AFTER listvalue value //If listvalue not exist,return -1,If listName is not list,return error  
+    linsert listName BEFORE|AFTER listvalue value //If listvalue not exist,return -1,If listName is not list,return error  
+    lrem listname count value                     //delete count key from list. if count = 0,delete all from list where listvalue = value
+    lset listname index value                     //replace list[index] by value.If index not exsit,return error.  
 ```
 
-##
+## Set
+Hashtable
+
+```
+    sadd key value1 ....        //add a set with values
+    smember key                 //return all member
+```
