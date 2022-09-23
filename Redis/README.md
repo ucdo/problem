@@ -169,3 +169,9 @@ Hashtable
 ## 主从复制 
 主机更新后根据配置和策略，同步到从机的 `master - slave` 机制，Master以写为主，Slave以读为主。读写分离性能高，容灾备份免挂掉。
 ![avart](../Redis/Img/Master-Slave.png)
+
+## 分布式锁
+
+```
+
+```
