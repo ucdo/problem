@@ -6,8 +6,9 @@ import (
 )
 
 func main() {
-	pivotIndex([]int{1, 7, 3, 6, 5, 6})
-	testS([]int{1, 2, 3, 4, 5})
+	//pivotIndex([]int{1, 7, 3, 6, 5, 6})
+	//testS([]int{1, 2, 3, 4, 5})
+	isSubsequence("helloo", "world")
 }
 
 func maxArea(arr []int) int {
@@ -62,4 +63,20 @@ func testS(arr []int) {
 	fmt.Print(arr)
 	fmt.Print("\r\n")
 	fmt.Print(a)
+}
+
+func isSubsequence(h string, n string) bool {
+	//思路一定要清晰
+	//1.首先应该确定遍历哪个 n
+	//2.先拿出来 h 中的 一个，然后遍历 n ，如果 n存在，则 h中的指针往后移动一步，n继续跑
+	index := 0
+	for k, _ := range n {
+		if h[index] == n[k] {
+			index++
+			if index == len(h) {
+				return true
+			}
+		}
+	}
+	return false
 }
