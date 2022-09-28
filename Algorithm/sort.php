@@ -29,10 +29,32 @@ function selectionSort(array $arr): array{
     return $arr;
 }
 
+
+function quickSort(array $arr): array{
+    if(count($arr) <= 1) return $arr;
+    
+    $point = $arr[0];
+    $leftArray = array();
+    $rightArray = array();
+
+    for($i = 1;$i < count($arr); $i++){
+        if($point > $arr[$i]){
+            $leftArray[] = $arr[$i];
+        }else{
+            $rightArray[] = $arr[$i];
+        }
+    }
+    $leftArray = quickSort($leftArray);
+    $leftArray[] = $point;
+    $rightArray = quickSort($rightArray);
+    return array_merge($leftArray, $rightArray);
+}
+
 function main(){
     $array = [12, 2, 3, 124, 99, 0, 234, 34, 11, 345, 51];
-//     dd(bubbleSort($array);
-    dd(selectionSort($array));
+    // dd(bubbleSort($array);
+    // dd(selectionSort($array));
+    dd(quickSort($array));
 }
 
 main();

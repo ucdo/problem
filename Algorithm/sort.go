@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	//fmt.Print(bubbleSort([]int{12, 2, 3, 124, 99, 0, 234, 34, 11, 345, 51}))
-	fmt.Print(selectionSort([]int{12, 2, 3, 124, 99, 0, 234, 34, 11, 345, 51}))
+	arr := []int{12, 2, 3, 124, 99, 0, 234, 34, 11, 345, 51}
+	//fmt.Print(bubbleSort(arr))
+	//fmt.Print(selectionSort(arr))
+	fmt.Print(quilckSort(arr, 0, len(arr)-1))
 }
 
 func bubbleSort(arr []int) []int {
@@ -28,6 +32,23 @@ func selectionSort(arr []int) []int {
 			}
 		}
 		arr[i], arr[m] = arr[m], arr[i]
+	}
+	return arr
+}
+
+func quilckSort(arr []int, left int, right int) []int {
+	if left < right {
+		index := left + 1
+		for i := index; i <= right; i++ {
+			if arr[left] > arr[i] {
+				arr[i], arr[index] = arr[index], arr[i]
+				index++
+			}
+		}
+		arr[left], arr[index-1] = arr[index-1], arr[left]
+		pivote := index - 1
+		quilckSort(arr, left, pivote-1)
+		quilckSort(arr, pivote+1, right)
 	}
 	return arr
 }
