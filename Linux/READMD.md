@@ -15,3 +15,6 @@ ESC
 :wq
 php -m
 ```
+```shell
+kms
+```
