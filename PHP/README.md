@@ -4,6 +4,7 @@
 ```
 PHP：8.1
 框架：Hyperf 3.0
+支持：swoole-4.8.12
 数据库：8.1
 缓存：Redis
 中间件:logger
