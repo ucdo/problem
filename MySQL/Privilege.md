@@ -7,5 +7,6 @@ grant 权限名(所有的权限用all) on 库名(*全部).表名(*全部) to  '�
 例如修改本地的local数据库让特定的ip拥有所有权限
 grant all privileges on local.* to 'root'@'具体的ip地址' identified by '具体的密码'
 执行成功之后，刷新权限
+update privileges
 ```
 数据库：
