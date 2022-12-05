@@ -12,5 +12,4 @@
 https://geektutu.com/post/gee-day1.html
 ```
 
-# 2022/10/21 10:14
-# 别学go了，专注把PHP学好，把基础补起来。有时间学学C语言
+# GO IM
