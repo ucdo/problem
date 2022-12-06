@@ -13,3 +13,13 @@
 https://www.bilibili.com/video/BV1JV411t7ow/?p=6&spm_id_from=pageDriver&vd_source=f1cf3fc0aa9d38dd9b14e79027e563b3
 前面的建议重新看一遍，然后再配合书籍食用
 ```
+
+# HTTP RPC SOCKET
+``` 
+都是位于应用层的
+TCP UDP都是传输层
+选择HTTP还是RPC
+```
+
+# SOCKET
+![socket](./img/socket.png)
