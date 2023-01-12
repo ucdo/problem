@@ -16,4 +16,5 @@ git config --global --list
 
 ## git command line
 ```
+git log //查看git的日志
 ```
