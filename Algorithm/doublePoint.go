@@ -8,7 +8,7 @@ import (
 func main() {
 	//pivotIndex([]int{1, 7, 3, 6, 5, 6})
 	//testS([]int{1, 2, 3, 4, 5})
-	isSubsequence("helloo", "world")
+	isSubsequence("hello", "world")
 }
 
 func maxArea(arr []int) int {

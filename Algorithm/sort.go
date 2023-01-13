@@ -8,13 +8,13 @@ func main() {
 	arr := []int{12, 2, 3, 124, 99, 0, 234, 34, 11, 345, 51}
 	//fmt.Print(bubbleSort(arr))
 	//fmt.Print(selectionSort(arr))
-	fmt.Print(quilckSort(arr, 0, len(arr)-1))
+	fmt.Print(quickSort(arr, 0, len(arr)-1))
 }
 
 func bubbleSort(arr []int) []int {
-	lenght := len(arr)
-	for i := 0; i < lenght; i++ {
-		for j := 0; j < lenght-1-i; j++ {
+	lengths := len(arr)
+	for i := 0; i < lengths; i++ {
+		for j := 0; j < lengths-1-i; j++ {
 			if arr[j] > arr[j+1] {
 				arr[j], arr[j+1] = arr[j+1], arr[j]
 			}
@@ -36,7 +36,7 @@ func selectionSort(arr []int) []int {
 	return arr
 }
 
-func quilckSort(arr []int, left int, right int) []int {
+func quickSort(arr []int, left int, right int) []int {
 	if left < right {
 		index := left + 1
 		for i := index; i <= right; i++ {
@@ -46,9 +46,9 @@ func quilckSort(arr []int, left int, right int) []int {
 			}
 		}
 		arr[left], arr[index-1] = arr[index-1], arr[left]
-		pivote := index - 1
-		quilckSort(arr, left, pivote-1)
-		quilckSort(arr, pivote+1, right)
+		pivot := index - 1
+		quickSort(arr, left, pivot-1)
+		quickSort(arr, pivot+1, right)
 	}
 	return arr
 }
