@@ -13,3 +13,5 @@ https://geektutu.com/post/gee-day1.html
 ```
 
 # GO IM
+
+# 先把基础语法学了，然后写个crud

@@ -26,3 +26,12 @@ kms
 在宿主机中打开 powershell,输入ipconfig 找到给 wsl 分配的 ipv4地址
 然后配置env这个ip
 ```
+
+## ssh 远程登录
+
+```shell
+sudo apt install openssh-server && 
+ssh username@ip -p port
+```
+
+本地生成的公钥，要放在对方服务器上的 authorized_keys 里面

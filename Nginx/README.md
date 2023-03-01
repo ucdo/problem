@@ -21,7 +21,7 @@ server{
     listen 80
     # 在hosts里面配置的网站名
     server_name hosts`url 
-    # 转发啊所有的请求
+    # 转发所有的请求
     location / {
         proxy_set_header Host $http_host;
         proxy_set_header X-Real-IP $remote_addr;

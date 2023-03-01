@@ -17,4 +17,6 @@ git config --global --list
 ## git command line
 ```
 git log //查看git的日志
+git fetch --all
+git reset --hard origin/dev
 ```
