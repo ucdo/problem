@@ -1,12 +1,15 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 )
 
 func main() {
-	num := []int{1, 2, 3}
-	runningSum(num)
+	arr := [7]int{1, 2, 3, 4, 5, 6, 7}
+	s := arr[:]
+	rotate(s, 3)
+	fmt.Println(arr)
 }
 
 func runningSum(nums []int) []int {
@@ -108,4 +111,77 @@ func tomMiddleNode(head *ListNode1) *ListNode1 {
 		return arr[lens/2+1]
 	}
 	return arr[lens/2]
+}
+
+//func s() {
+//	a := "nihao"
+//	for k, v := range a {
+//		fmt.Printf("%d %d \n", k, v)
+//	}
+//}
+
+func canConstruct(ransomNote string, magazine string) bool {
+	if len(ransomNote) > len(magazine) {
+		return false
+	}
+
+	//我想把他们存放在slice里面。然后ransomNote拿一个删一个
+
+	s := make([]int, 26, 26)
+	for _, v := range magazine {
+		v -= 97
+		//存在即加一
+		if inSlice(int(v), s) {
+			s[v]++
+			continue
+		}
+		//不存在则初始化
+		s[v] = 1
+	}
+
+	for _, v := range ransomNote {
+		v -= 97
+		if inSlice(int(v), s) && s[v] >= 1 {
+			s[v]--
+			continue
+		}
+		return false
+	}
+
+	return true
+}
+
+func inSlice(key int, s []int) bool {
+	for k, _ := range s {
+		if key == k {
+			return true
+		}
+	}
+	return false
+}
+
+func tsetAppend() {
+	nums := []int{0, 0, 2}
+	slow := 1
+
+	for fast := 1; fast < len(nums); fast++ {
+		if nums[fast] != nums[fast-1] {
+			nums[slow] = nums[fast]
+			slow++
+		}
+	}
+
+	fmt.Println(nums)
+}
+
+func rotate(nums []int, k int) {
+	//key = 3 从第 4 步开始移动  len = 7 .
+	// 直接append，合并的步数为， len - key % len
+	lens := len(nums)
+	step := lens - k%lens
+	arr := append(nums[step:], nums[:step]...)
+	for k, v := range arr {
+		nums[k] = v
+	}
+
 }
