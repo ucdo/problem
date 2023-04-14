@@ -6,7 +6,7 @@ namespace clone;
  */
 class CloneTour
 {
-    public function t1()
+    public function t1():void
     {
 
     }

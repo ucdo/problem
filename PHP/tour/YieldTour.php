@@ -2,7 +2,7 @@
 /**
  * 迭代器
  */
-function yieldTour()
+function yieldTour(): Generator
 {
     for ($i = 0; $i < 10; $i++) {
         yield($i);
