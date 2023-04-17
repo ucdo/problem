@@ -127,20 +127,79 @@ class Solution
      * @return Boolean
      */
     function isValidSudoku($board) {
-        //将9×9个方格，拆分成3×3的小方格，然后检查。
-        //(0,0)(0,1)(0,2)
-        //(1,0)(1,1)(1,2)
-        //(2,0)(2,1)(2,2)
-        for ($i = 0; $i < 9; $i++) {
-            for ($j = 0; $j < 3*$i; $j++) {
+        for ($i = 3; $i <= 9; $i += 3) {
+            for ($j = 3; $j <= 9; $j += 3) {
+                $res =  $this->is_sudo($board,$i,$j);
+                if(! $res){
+                    return false;
+                }
+            }
+        }
 
+        for ($f = 0; $f < 9; $f++) {
+            $res = $this->is_sudo2($board,$f);
+            if(! $res){
+                return false;
             }
         }
 
         return true;
     }
+
+    /**
+     * 检查3×3格子
+     * @param $data
+     * @param $i
+     * @param $j
+     * @return bool
+     */
+    function is_sudo($data,$i,$j)
+    {
+        $f = [];
+        for ($k = $i - 3; $k < $i; $k++) {
+            for ($l = $j - 3; $l < $j; $l++) {
+                $key = $data[$k][$l];
+                if($key != '.'){
+                    $f[] = $data[$k][$l];
+                }
+
+                $len = count($f);
+                if(count(array_unique($f)) != $len){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    /**
+     * 检查列
+     * @param $data
+     * @param $i
+     * @return bool
+     */
+    function is_sudo2($data, $i)
+    {
+        $temp = [];
+        $arr = array_values($data[$i]);
+        for ($j = 0; $j < 9; $j++) {
+            if($data[$i][$j] != '.'){
+                $temp[] = $data[$i][$j];
+            }
+
+            if($arr[$j] == '.'){
+                unset($arr[$j]);
+            }
+        }
+        $len1 = count($arr);
+        $len2 = count($temp);
+        if(count(array_unique($arr)) != $len1 || count(array_unique($temp)) != $len2){
+            return false;
+        }
+        return true;
+    }
 }
 
-$arr = [1,2,3,4,5,6];
-(new Solution())->rotate($arr,1);
-var_dump($arr);
+$arr = [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]];
+$res = (new Solution())->isValidSudoku($arr);
+var_dump($res);
