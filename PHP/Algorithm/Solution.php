@@ -199,6 +199,7 @@ class Solution
         return true;
     }
 
+<<<<<<< Updated upstream
     function range(array &$arr):array
     {
         /**
@@ -233,6 +234,37 @@ class Solution
         }
         $arr = $t1;
         return $arr;
+=======
+    /**
+     * @param Integer[] $nums
+     * @param Integer $k
+     * @return array
+     */
+    function maxSlidingWindow(array $nums, int $k): array
+    {
+        $temp = [];
+        $len = count($nums);
+        if($len == 1){
+            return [$nums[0]];
+        }
+
+        if($len <= $k){
+            return [max($nums)];
+        }
+
+        $t = array_slice($nums,0,$k);
+        for($slow = 1;$slow < $len;$slow++){
+            if(in_array(end($temp),$nums)){
+                $temp[] = end($temp);
+            }else{
+                $temp[] = max($t);
+            }
+            unset($t[array_key_first($t)]);
+            $t[] = $nums[$slow + $k];
+        }
+
+        return $temp;
+>>>>>>> Stashed changes
     }
 }
 
