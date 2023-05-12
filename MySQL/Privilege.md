@@ -10,3 +10,16 @@ grant all privileges on local.* to 'root'@'具体的ip地址' identified by '具
 update privileges
 ```
 数据库：
+
+```msyql
+创建 CREATE USER 'username'@'hostname' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'qy@mysql1123' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+```
+
+
+grant all privileges on *.* to 'roo'@'172.30.249.113' 
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'qy@mysql1123' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
