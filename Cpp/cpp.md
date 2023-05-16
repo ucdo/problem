@@ -50,7 +50,7 @@ int main()
     int* ptr = nullptr;
     int value = 1;
     ptr = &value;
-    cout << "value is >>> " << ptr << endl;
+    cout << "value is >>> " << *ptr << endl;
     return 0;
 }
 ```
