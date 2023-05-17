@@ -1,2 +1,6 @@
-.idea
 php/vendor
+*.exe
+cmake-build-debug
+.idea
+*.php
+.vscode
