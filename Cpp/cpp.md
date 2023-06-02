@@ -1,5 +1,10 @@
 #
 
+## const
+```text
+const 对象默认是文件局部变量，要在其它地方也能访问的话，就要设置成 extern
+```
+
 ## 头文件
 引入iostream的头文件
 使用std明明空间，不然要写成 std::out << "--" << std::endl;
