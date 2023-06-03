@@ -20,3 +20,8 @@ git log //查看git的日志
 git fetch --all
 git reset --hard origin/dev
 ```
+
+## 导出最后一次提交
+```shell
+git archive HEAD --format=tar --output=last-commit.tar $(git diff-tree --no-commit-id --name-only -r HEAD)
+```
