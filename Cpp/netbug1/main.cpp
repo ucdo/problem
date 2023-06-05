@@ -10,7 +10,7 @@ size_t callbackFunction(char *data, size_t size, size_t nmemb, std::string *resu
     return totalSize;
 }
 
-int GetRandom(){
+int GetRandom() {
     // choose random engine
     std::random_device rd;
     std::mt19937 gen(rd());
@@ -25,29 +25,41 @@ int GetRandom(){
 size_t Write2File(char *data, size_t size, size_t nmemb, FILE *file) {
     return fwrite(data, size, nmemb, file);
 }
+
 // download images
 void DownloadImg(const std::vector<std::string> &vector) {
-    for (const auto& path: vector) {
+    for (const auto &path: vector) {
         // auto const 和 const auto 有什么区别
-        const char* cpath = path.c_str();
+        const char *cpath = path.c_str();
         if (path.size() < 5) {
             continue;
         }
 
-        auto pos = path.find_last_of('.');
-        auto leaf = path.substr(pos + 1);
-        if (leaf == "png" || leaf == "jpg" || leaf == "jpeg") {
-            std::stringstream ss;
-            const char* save_path = "img/";
-            int rand_int = GetRandom();
-            ss << save_path << std::time(nullptr) << rand_int << "." << leaf ;
-            std::string str = ss.str();
-            char* file_name = const_cast<char *>(str.c_str());
+        std::string suffix;
 
-            FILE* file = fopen(file_name,"wb+");
-            cout<< "file_name:" << file_name << endl;
-            auto res = CURLRequest(cpath,file);
-            if(res != CURLE_OK){
+        auto pos = path.find_last_of('.');
+        auto leafs = path.substr(pos + 1);
+
+        auto qm = leafs.find_last_of('?');
+        if (qm) {
+            suffix = leafs.substr(0, qm);
+        } else {
+            suffix = leafs;
+        }
+
+
+        if (suffix == "png" || suffix == "jpg" || suffix == "jpeg") {
+            std::stringstream ss;
+            const char *save_path = "img/";
+            int rand_int = GetRandom();
+            ss << save_path << std::time(nullptr) << rand_int << "." << suffix;
+            std::string str = ss.str();
+            char *file_name = const_cast<char *>(str.c_str());
+
+            FILE *file = fopen(file_name, "wb+");
+            cout << "file_name:" << file_name << endl;
+            auto res = CURLRequest(cpath, file);
+            if (res != CURLE_OK) {
                 cout << cpath << "download fail";
             }
         }
@@ -65,13 +77,14 @@ size_t ParseHyperLink(const char *file_name, std::vector<std::string> &vector) {
         return -1;
     }
 
-    std::regex pattern("href=\"([^\"]*)\"");
+    std::regex pattern("(href|src)=\"([^\"]*)\"");
 
     while (std::getline(file, line)) {
         std::smatch match;
         std::string::const_iterator iterator(line.cbegin());
-        while (std::regex_search(iterator,line.cend(), match, pattern)) {
-            vector.push_back(match[1].str());
+        while (std::regex_search(iterator, line.cend(), match, pattern)) {
+            vector.push_back(match[2].str());
+            cout << "match" << match[2].str() << endl;
             iterator = match.suffix().first;
         }
     }
@@ -107,7 +120,7 @@ int Request() {
         return -1;
     }
 
-    res = CURLRequest(url,file);
+    res = CURLRequest(url, file);
 
     if (res != CURLE_OK) {
         std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
@@ -115,12 +128,13 @@ int Request() {
     }
 
     std::vector<std::string> hyperlinks;
-    ParseHyperLink(file_name, hyperlinks);
-//    for (auto n : hyperlinks) {
-//        cout << n << endl << endl;
-//    }
-    DownloadImg(hyperlinks);
+    // Task2 parse hyperlink and download
+//    ParseHyperLink(file_name, hyperlinks);
+//    DownloadImg(hyperlinks);
 
+    // Task3 parse content
+    std::string content;
+    ExtractContent(file_name, content);
     return 1;
 }
 
@@ -147,5 +161,29 @@ CURLcode CURLRequest(const char *url, FILE *file) {
     curl_easy_cleanup(curl);
 
     return res;
+}
+
+void ExtractContent(const char* file_name, std::string& content)
+{
+    cout << "in ExtractContent >> " << file_name << endl;
+    std::ifstream file(file_name);
+    std::string line;
+    if (!file.is_open()) {
+        cout << "fail to open file" << endl;
+        return ;
+    }
+
+    while(std::getline(file, line)){
+        // 创建一个string 的 迭代器
+        std::string::const_iterator iterator (line.cbegin());
+        std::regex pattern("<span[^>]>([^<]*)");
+        std::smatch match;
+        while(std::regex_search(iterator,line.cend(),match,pattern)){
+            for (auto n : match) {
+                cout << n << endl;
+            }
+            iterator = match.suffix().first;
+        }
+    }
 }
 
