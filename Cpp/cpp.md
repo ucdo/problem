@@ -87,6 +87,27 @@ struct StrutName{
 说了这么多，下面看看代码
 ### 
 
+# 调试
+```c++
+#include <cerrno>
+#include <ifstream>
+
+void open_file(const char*);
+int main()
+{
+    char* file_name = "1.html";
+    open_file(file_name);
+}
+
+void open_file(const char* file_name)
+{
+    std::ifstream file(file_name);
+    if(! file.is_open()){
+        cout << std::strerror(errno) << endl;
+    }
+}
+```
+
 # pro
 ## 简单计算器
 ```c++

@@ -1,0 +1,1911 @@
+[
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "B"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "C"
+            },
+            {
+                "id": 6242,
+                "answer": "A"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "B"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 259
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "B"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "C"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "B"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 256
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "C"
+            },
+            {
+                "id": 6240,
+                "answer": "B"
+            },
+            {
+                "id": 6241,
+                "answer": "C"
+            },
+            {
+                "id": 6242,
+                "answer": "A"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "B"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "C"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 255
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "A"
+            },
+            {
+                "id": 6238,
+                "answer": "A"
+            },
+            {
+                "id": 6239,
+                "answer": "B"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "B"
+            },
+            {
+                "id": 6244,
+                "answer": "A"
+            },
+            {
+                "id": 6245,
+                "answer": "B"
+            },
+            {
+                "id": 6246,
+                "answer": "B"
+            },
+            {
+                "id": 6247,
+                "answer": "B"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "B"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "A"
+            },
+            {
+                "id": 6253,
+                "answer": "C"
+            },
+            {
+                "id": 6254,
+                "answer": "B"
+            }
+        ],
+        "inputs": [],
+        "user_id": 253
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "B"
+            },
+            {
+                "id": 6241,
+                "answer": "A"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "B"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 251
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "A"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "B"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "B"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "C"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 249
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "A"
+            },
+            {
+                "id": 6238,
+                "answer": "B"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "A"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "C"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "C"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 230
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "B"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "B"
+            },
+            {
+                "id": 6240,
+                "answer": "A"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "C"
+            },
+            {
+                "id": 6243,
+                "answer": "B"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "B"
+            },
+            {
+                "id": 6246,
+                "answer": "B"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "C"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "B"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 220
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "B"
+            },
+            {
+                "id": 6238,
+                "answer": "B"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "A"
+            },
+            {
+                "id": 6241,
+                "answer": "A"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "C"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 219
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "B"
+            },
+            {
+                "id": 6238,
+                "answer": "A"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "B"
+            }
+        ],
+        "inputs": [],
+        "user_id": 213
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "A"
+            },
+            {
+                "id": 6239,
+                "answer": "C"
+            },
+            {
+                "id": 6240,
+                "answer": "A"
+            },
+            {
+                "id": 6241,
+                "answer": "C"
+            },
+            {
+                "id": 6242,
+                "answer": "C"
+            },
+            {
+                "id": 6243,
+                "answer": "B"
+            },
+            {
+                "id": 6244,
+                "answer": "A"
+            },
+            {
+                "id": 6245,
+                "answer": "A"
+            },
+            {
+                "id": 6246,
+                "answer": "C"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "B"
+            },
+            {
+                "id": 6249,
+                "answer": "B"
+            },
+            {
+                "id": 6250,
+                "answer": "C"
+            },
+            {
+                "id": 6251,
+                "answer": "C"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "C"
+            },
+            {
+                "id": 6254,
+                "answer": "C"
+            }
+        ],
+        "inputs": [],
+        "user_id": 195
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "B"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "B"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "B"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 184
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "B"
+            },
+            {
+                "id": 6238,
+                "answer": "B"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "B"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "A"
+            },
+            {
+                "id": 6243,
+                "answer": "B"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "B"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "B"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "B"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 174
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "A"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "C"
+            },
+            {
+                "id": 6242,
+                "answer": "C"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "C"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "B"
+            },
+            {
+                "id": 6254,
+                "answer": "B"
+            }
+        ],
+        "inputs": [],
+        "user_id": 164
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "A"
+            },
+            {
+                "id": 6242,
+                "answer": "A"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "A"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 163
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "A"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "A"
+            },
+            {
+                "id": 6242,
+                "answer": "A"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "A"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 161
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "B"
+            },
+            {
+                "id": 6238,
+                "answer": "B"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "A"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "B"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "B"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "B"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "A"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 159
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "B"
+            },
+            {
+                "id": 6238,
+                "answer": "B"
+            },
+            {
+                "id": 6239,
+                "answer": "B"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "C"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "A"
+            },
+            {
+                "id": 6245,
+                "answer": "B"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "C"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "B"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 141
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "B"
+            },
+            {
+                "id": 6238,
+                "answer": "B"
+            },
+            {
+                "id": 6239,
+                "answer": "B"
+            },
+            {
+                "id": 6240,
+                "answer": "B"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "B"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "B"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "B"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "C"
+            },
+            {
+                "id": 6251,
+                "answer": "C"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "B"
+            },
+            {
+                "id": 6254,
+                "answer": "B"
+            }
+        ],
+        "inputs": [],
+        "user_id": 102
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "A"
+            },
+            {
+                "id": 6238,
+                "answer": "A"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "A"
+            },
+            {
+                "id": 6241,
+                "answer": "A"
+            },
+            {
+                "id": 6242,
+                "answer": "A"
+            },
+            {
+                "id": 6243,
+                "answer": "A"
+            },
+            {
+                "id": 6244,
+                "answer": "A"
+            },
+            {
+                "id": 6245,
+                "answer": "A"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "A"
+            },
+            {
+                "id": 6248,
+                "answer": "A"
+            },
+            {
+                "id": 6249,
+                "answer": "A"
+            },
+            {
+                "id": 6250,
+                "answer": "A"
+            },
+            {
+                "id": 6251,
+                "answer": "A"
+            },
+            {
+                "id": 6252,
+                "answer": "A"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 90
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 87
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "B"
+            },
+            {
+                "id": 6238,
+                "answer": "A"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "C"
+            },
+            {
+                "id": 6241,
+                "answer": "B"
+            },
+            {
+                "id": 6242,
+                "answer": "B"
+            },
+            {
+                "id": 6243,
+                "answer": "A"
+            },
+            {
+                "id": 6244,
+                "answer": "C"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "B"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "B"
+            },
+            {
+                "id": 6251,
+                "answer": "B"
+            },
+            {
+                "id": 6252,
+                "answer": "B"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 86
+    },
+    {
+        "measureId": "218",
+        "systemAccess": {
+            "accessToken": "md5"
+        },
+        "isSave": true,
+        "answer": [
+            {
+                "id": 6237,
+                "answer": "C"
+            },
+            {
+                "id": 6238,
+                "answer": "C"
+            },
+            {
+                "id": 6239,
+                "answer": "A"
+            },
+            {
+                "id": 6240,
+                "answer": "A"
+            },
+            {
+                "id": 6241,
+                "answer": "C"
+            },
+            {
+                "id": 6242,
+                "answer": "C"
+            },
+            {
+                "id": 6243,
+                "answer": "C"
+            },
+            {
+                "id": 6244,
+                "answer": "B"
+            },
+            {
+                "id": 6245,
+                "answer": "C"
+            },
+            {
+                "id": 6246,
+                "answer": "A"
+            },
+            {
+                "id": 6247,
+                "answer": "C"
+            },
+            {
+                "id": 6248,
+                "answer": "C"
+            },
+            {
+                "id": 6249,
+                "answer": "C"
+            },
+            {
+                "id": 6250,
+                "answer": "A"
+            },
+            {
+                "id": 6251,
+                "answer": "C"
+            },
+            {
+                "id": 6252,
+                "answer": "C"
+            },
+            {
+                "id": 6253,
+                "answer": "A"
+            },
+            {
+                "id": 6254,
+                "answer": "A"
+            }
+        ],
+        "inputs": [],
+        "user_id": 83
+    }
+]

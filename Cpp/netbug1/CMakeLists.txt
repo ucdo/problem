@@ -4,7 +4,7 @@ project(netbug1)
 set(CMAKE_CXX_STANDARD 11)
 
 # 添加 curl 头文件路径
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/curl)
+include_directories(../curl)
 
 # 添加 curl 库文件
 link_directories(${CMAKE_CURRENT_SOURCE_DIR})

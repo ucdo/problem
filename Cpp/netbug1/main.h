@@ -6,7 +6,7 @@
 #define PROBLEM_CURLDEMO_H
 
 #include <iostream>
-#include "curl/curl.h"
+#include "../curl/curl.h"
 #include <regex>
 #include <fstream>
 #include <random>

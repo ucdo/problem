@@ -67,7 +67,6 @@ void DownloadImg(const std::vector<std::string> &vector) {
 
 }
 
-
 size_t ParseHyperLink(const char *file_name, std::vector<std::string> &vector) {
     cout << "in ParseHyperLink" << endl;
     std::ifstream file(file_name);
@@ -109,7 +108,6 @@ int Request() {
 
     cin >> url;
 
-
     curl_global_init(CURL_GLOBAL_DEFAULT);
 
     FILE *file = fopen(file_name, "wb");  // 打开文件用于写入
@@ -135,6 +133,7 @@ int Request() {
     // Task3 parse content
     std::string content;
     ExtractContent(file_name, content);
+    cout << content << endl;
     return 1;
 }
 
@@ -176,11 +175,15 @@ void ExtractContent(const char* file_name, std::string& content)
     while(std::getline(file, line)){
         // 创建一个string 的 迭代器
         std::string::const_iterator iterator (line.cbegin());
-        std::regex pattern("<span[^>]>([^<]*)");
+        std::regex pattern("<(li|p|span|div)([^>]*)\">([^<]*)");
         std::smatch match;
+        cout << "match-begin" << endl;
         while(std::regex_search(iterator,line.cend(),match,pattern)){
-            for (auto n : match) {
-                cout << n << endl;
+            std::string match3 = match[3];
+            if(! std::all_of(match3.cbegin(),match3.cend(), [](unsigned char c){
+                return std::isspace(c);
+            })){
+                content += match3;
             }
             iterator = match.suffix().first;
         }
