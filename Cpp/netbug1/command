@@ -1,1 +1,0 @@
-gcc -g -o ./main.exe main.cpp -I./curl -L./ -lcurl -lstdc++
