@@ -5,3 +5,4 @@ cmake-build-debug
 *.php
 .vscode
 .vs
+Cpp\curl
