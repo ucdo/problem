@@ -39,7 +39,7 @@ ssh username@ip -p port
 ## 命令操作
 ```shell
 unzip -o zipname.zip
-zip -r tozip.zip *
+zip -r tozip.zip *-
 ```
 解压文件到当前目录
 递归压缩当前文件夹下的所有文件到tozip.zip
