@@ -17,4 +17,4 @@ select JSON_EXTRACT(data,'$[*].id') from test;
 
 ```sql
 select * from test group by gauge_id,user_id;
-```
+``` 
