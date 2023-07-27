@@ -43,3 +43,9 @@ zip -r tozip.zip *-
 ```
 解压文件到当前目录
 递归压缩当前文件夹下的所有文件到tozip.zip
+
+
+## 查看进程状态
+```shell
+ps -ef | grep nginx
+```
