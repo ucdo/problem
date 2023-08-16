@@ -18,3 +18,21 @@ select JSON_EXTRACT(data,'$[*].id') from test;
 ```sql
 select * from test group by gauge_id,user_id;
 ``` 
+
+
+> JSON_EXTRACT
+1. 解析一层
+```sql
+ JSON_EXTRACT(COL,'$.answer')
+```
+2. 解析两层
+```sql
+JSON_EXTRACT(COL,'$."answer".conclusion')
+```
+
+> 计算年龄
+TIMESTAMPDIFF(YEAR,@birthday,CURTIME()) AS `age`
+> IF
+```sql
+exp: IF(CONDITION,TRUE,NULL)
+```
