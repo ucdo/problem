@@ -50,7 +50,7 @@ function executeActionHandler(actionHandler $handler){
         }
     }
 
-    $handler->excute();
+    $handler->execute();
 }
 
 $copyAction = new copyFile();
