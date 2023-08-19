@@ -22,9 +22,11 @@ https://www.bilibili.com/video/BV1JV411t7ow/?p=6&spm_id_from=pageDriver&vd_sourc
 前面的建议重新看一遍，然后再配合书籍食用
 ```
 
-# HTTP RPC SOCKET
+## HTTP RPC SOCKET
 ``` 
 都是位于应用层的
 TCP UDP都是传输层
 选择HTTP还是RPC
 ```
+
+## 跨域(cors)
