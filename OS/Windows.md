@@ -11,3 +11,22 @@ slmgr /ato
 ```shell
 shift + space
 ```
+
+## 修改文件的所属权限
+```shell
+takeown /f \path\to\dir /r /d y
+```
+
+## 删除 $WINDOWS.~BT
+step1:
+```shell
+takeown /F C:\$Windows.~BT\* /R /A
+```
+step2:
+```shell
+icacls C:\$Windows.~BT\*.* /T /grant administrators:F
+```
+step3:
+```shell
+rmdir /S /Q C:\$Windows.~BT\
+```
