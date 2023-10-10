@@ -30,3 +30,11 @@ step3:
 ```shell
 rmdir /S /Q C:\$Windows.~BT\
 ```
+
+## 商业版
+```text
+
+1. https://next.itellyou.cn/Identity/Account/Login?ReturnUrl=%2FOriginal%2FIndex
+2. window10 business editions
+4. 数字权利激活
+```
