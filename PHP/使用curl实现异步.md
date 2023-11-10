@@ -12,7 +12,6 @@ function asyncCurl($url, $data)
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     $result['response'] = curl_exec($ch);
     $result['httpCode'] = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    sleep(59);
     return $result;
 
 }
