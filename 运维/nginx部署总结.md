@@ -5,7 +5,7 @@
         location / {       #代表访问8946会直接跳转到http://100.100.105.137:8995这去
         # 此处改为 socket.io 后端的 ip 和端口即可
         proxy_pass http://100.100.105.137:8995;
-       proxy_set_header Host $host;
+        proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;  # 使用客户端的真实 IP
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
