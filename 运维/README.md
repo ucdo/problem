@@ -57,3 +57,18 @@ systemctl status nginx
 systemctl status mysql
 systemctl status redis
 ```
+
+### 守护进程
+```shell
+nohup php srcipt.php &
+```
+
+### 常用命令
+查看占用
+```shell
+top
+```
+筛查: exp :查找php进程
+```shell
+ps aux | grep php
+```
