@@ -23,11 +23,15 @@ select * from test group by gauge_id,user_id;
 > JSON_EXTRACT
 1. 解析一层
 ```sql
- JSON_EXTRACT(COL,'$.answer')
+ JSON_EXTRACT(COL,'$.answer') 
 ```
 2. 解析两层
 ```sql
 JSON_EXTRACT(COL,'$."answer".conclusion')
+```
+3. 如果这个字段有为空的
+```sql 
+CASE WHEN JSON_VALID(col) THEN JSON_EXTRACT(col,'$.answer') ELSE null end
 ```
 
 > 计算年龄
