@@ -30,3 +30,10 @@ TCP UDP都是传输层
 ```
 
 ## 跨域(cors)
+
+
+## 带宽
+``` 
+100Mbps = 100M bit peer seconds = 12.5M byte peer seconds = 12.5M/s
+这是理论下载速度，实际下载速度得腰斩
+```
