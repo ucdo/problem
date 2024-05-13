@@ -1,7 +1,6 @@
 php/vendor
 *.exe
 .idea
-*.php
 .vscode
 .vs
 Interview/*
