@@ -23,3 +23,6 @@ grant all privileges on *.* to 'roo'@'172.30.249.113'
 
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'qy@mysql1123' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
+
+//分配全部表权限
+GRANT Alter, Alter Routine, Create, Create Routine, Create Temporary Tables, Create View, Delete, Drop, Event, Execute, Grant Option, Index, Insert, Lock Tables, References, Select, Show View, Trigger, Update ON `register`.* TO `root`@`%`;
