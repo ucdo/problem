@@ -4,4 +4,5 @@ php/vendor
 .vscode
 .vs
 Interview/*
-Js/*
+*node_modules
+package*
