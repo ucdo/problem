@@ -28,6 +28,8 @@
     - [原子性](#原子性)
     - [持久性](#持久性)
 - [操作JSON列](#操作JSON列 )
+- [一些命令](#一些命令)
+  - [查询数据库中哪些表包含这个字段](#查询数据库下哪些表包含某一个字段)
 
 
 
@@ -376,3 +378,18 @@ TIMESTAMPDIFF(YEAR,@birthday,CURTIME()) AS `age`
 ```sql
 exp: IF(CONDITION,TRUE,NULL)
 ```
+
+# 一些命令
+
+### 查询数据库下哪些表包含某一个字段
+```sql
+SELECT
+	TABLE_NAME 
+FROM
+	INFORMATION_SCHEMA.COLUMNS 
+WHERE
+	COLUMN_NAME = 'col_name' 
+	AND TABLE_SCHEMA = 'database_name';
+```
+用途： 迁移或者合并数据库时，发现数据冲突，通过修改一个的数据合并避免覆盖或者报错
+
