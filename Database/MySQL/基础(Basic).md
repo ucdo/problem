@@ -393,3 +393,13 @@ WHERE
 ```
 用途： 迁移或者合并数据库时，发现数据冲突，通过修改一个的数据合并避免覆盖或者报错
 
+## 合并数据库
+```sql
+insert into 
+    charge_order_new 
+select * from charge_order_new3 
+where NOT EXISTS 
+    (select * from charge_order_new where id = charge_order_new3.id);
+
+```
+
