@@ -30,6 +30,8 @@
 - [操作JSON列](#操作JSON列 )
 - [一些命令](#一些命令)
   - [查询数据库中哪些表包含这个字段](#查询数据库下哪些表包含某一个字段)
+  - [合并数据库](#合并数据库)
+  - [日期查询](#日期查询)
 
 
 
@@ -403,3 +405,53 @@ where NOT EXISTS
 
 ```
 
+### 日期查询
+
+```sql
+
+## 获取当月数据
+SELECT * FROM user_event WHERE DATE_FORMAT(create_time,'%Y-%m') = DATE_FORMAT(NOW(),'%Y-%m')
+    获取3月份数据
+sql
+SELECT * FROM user_event WHERE DATE_FORMAT(create_time,'%Y-%m') = DATE_FORMAT('2016-03-01','%Y-%m')
+    获取三月份数据
+sql
+SELECT * FROM user_event WHERE YEAR(create_time)='2016' AND MONTH(create_time)='3'
+    获取本周数据
+    sql
+SELECT * FROM user_event WHERE YEARWEEK(DATE_FORMAT(create_time,'%Y-%m-%d')) = YEARWEEK(NOW())
+    查询上周的数据
+sql
+SELECT * FROM user_event WHERE YEARWEEK(DATE_FORMAT(create_time,'%Y-%m-%d')) = YEARWEEK(NOW())-1
+    查询距离当前现在6个月的数据
+sql
+SELECT * FROM user_event WHERE create_time BETWEEN DATE_SUB(NOW(), INTERVAL 6 MONTH) AND NOW()
+    查询上个月的数据
+sql
+SELECT * FROM user_event WHERE DATE_FORMAT(create_time,'%Y-%m') = DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 1 MONTH),'%Y-%m')
+    查询今天的信息记录
+sql
+SELECT * FROM user_event WHERE TO_DAYS(`create_time`) = TO_DAYS(NOW())
+    查询昨天的信息记录
+sql
+SELECT * FROM user_event WHERE DATEDIFF(NOW(), create_time) = 1
+    查询近7天的信息记录
+sql
+SELECT * FROM user_event WHERE create_time >= DATE_SUB(NOW(), INTERVAL 7 DAY)
+    查询近30天的信息记录
+sql
+SELECT * FROM user_event WHERE create_time >= DATE_SUB(NOW(), INTERVAL 30 DAY)
+    查询上一月的信息记录
+sql
+SELECT * FROM user_event WHERE create_time >= DATE_SUB(NOW(), INTERVAL 1 MONTH) AND create_time < NOW()
+```
+
+# 查询优化
+部分查询优化
+
+### 优化 in / no in 查询
+```sql
+SELECT *
+FROM user
+where user_id not in (SELECT user_id from team_user)
+```
