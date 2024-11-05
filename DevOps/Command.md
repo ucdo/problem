@@ -163,5 +163,5 @@ netstat -ano
 ```
 查看某一个端口的使用情况
 ```shell
-netstat -ano |findstr port
+netstat -ano | grep port
 ```

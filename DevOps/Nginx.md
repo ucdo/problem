@@ -89,3 +89,11 @@ server{
 //设置后访问头就是 23
 proxy_set_header X-Forwarded-For 23.99.221.243;
 ```
+
+# 静态文件伪静态
+```nginx.conf
+if (!-e $request_filename) {
+    rewrite ^/(.*) /index.html last;
+    break;
+}
+```
