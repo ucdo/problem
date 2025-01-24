@@ -3,6 +3,5 @@ php/vendor
 .idea
 .vscode
 .vs
-Interview/*
 *node_modules
 package*
