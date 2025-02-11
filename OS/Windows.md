@@ -45,3 +45,17 @@ rmdir /S /Q C:\$Windows.~BT\
 解决办法：  
 ![img_1.png](../Source/Img/OS/mstsc_img2.png)
 ![img_2.png](../Source/Img/OS/mstsc_img3.png)
+
+## 创建redis服务
+安装服务
+```shell
+redis-server --service-install redis.conf
+```
+启动服务
+```shell
+redis-server --service-start
+```
+检查服务状态
+```shell
+redis-server --service-status
+```
