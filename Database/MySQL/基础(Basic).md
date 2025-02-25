@@ -374,6 +374,16 @@ JSON_EXTRACT(COL,'$."answer".conclusion')
 CASE WHEN JSON_VALID(col) THEN JSON_EXTRACT(col,'$.answer') ELSE null end
 ```
 
+> 解决JSON_EXTRACT老是带引号的问题
+> 1. 常规写法  
+```sql 
+SELECT JSON_UNQUOTE(JSON_EXTRACT(col, '$.xx.xx')) AS value FROM table; 
+```
+> 2. 简化写法
+```sql 
+SELECT col->>'$.xx.xx' AS value FROM table;
+```
+
 > 计算年龄
 TIMESTAMPDIFF(YEAR,@birthday,CURTIME()) AS `age`
 > IF
