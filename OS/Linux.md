@@ -39,3 +39,9 @@ ssh username@ip -p port
 在宿主机中打开 powershell,输入ipconfig 找到给 wsl 分配的 ipv4地址
 然后配置env这个ip
 ```
+
+## curl发起请求
+发送POST且请求数据类型是JSON
+```shell 
+curl -X POST -H "Content-Type: application/json" -d '{"key1":"value1", "key2":"value2"}' http://example.com/api
+```

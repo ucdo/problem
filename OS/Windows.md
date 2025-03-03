@@ -59,3 +59,8 @@ redis-server --service-start
 ```shell
 redis-server --service-status
 ```
+
+## 查看端口占用
+```shell 
+netstat -ano | findstr ":<端口号>"
+```
